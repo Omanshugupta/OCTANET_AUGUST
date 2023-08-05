@@ -1,0 +1,92 @@
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('web-purple.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, -2);
+}
+
+.container h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.container .page {
+    width: 413px;
+    height: 40px;
+    margin: 30px -39px;
+}
+
+.page input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: .9rem;
+    color: #fff;
+}
+.page input::placeholder{
+    color: white;
+}
+
+.forget{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 15px;
+    margin: -15px -35px 15px;
+
+}
+.forget a:hover{
+    text-decoration: underline;
+    
+}
+.btn{
+    margin: 0px -40px;
+    width: 418px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+.create{
+font-size: 14px;
+text-align: center;
+margin-top: 20px 0 15px;
+}
+
+.create p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.create p a:hover{
+    text-decoration: underline;
+}
